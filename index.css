@@ -1,9 +1,16 @@
 .wrapper{
     text-decoration:none;
     font-size: 30px;
+
 }
 
-.nav{
+ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+
+}
+.avatar{
+display:flex;
+justify-content: center;
+
 }
