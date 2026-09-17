@@ -1,0 +1,9 @@
+.wrapper{
+    text-decoration:none;
+    font-size: 30px;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
