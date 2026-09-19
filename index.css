@@ -8,9 +8,45 @@ ul{
 .avatar{
 display:flex;
 justify-content: center;
+margin: 120px;
+flex-direction:column;
 }
 
 .menu a{
     text-decoration: none;
     color: black;
+    font-size: 30px;
 }
+.mi{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: rgba(177, 164, 134, 0.929);background-color: rgba(177, 164, 134, 0.929);
+}
+
+main{
+display:flex;
+justify-content: center;
+flex-grow: 3;
+
+}
+
+footer{
+
+}
+
