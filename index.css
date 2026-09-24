@@ -1,62 +1,101 @@
-
-ul{
-    display:flex;
+ul {
+    display: flex;
     justify-content: flex-end;
     gap: 25px;
-    text-decoration:none;
-    
+    text-decoration: none;
+
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: black;
     font-size: 30px;
 }
-.mi{
+
+.mi {
     display: flex;
     justify-content: center;
 }
+
 img {
     border-radius: 100%;
 }
-.logo{
+
+.logo {
     font-size: 50px;
     display: flex;
     justify-content: start;
-    padding: 15px;
+
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
-background-color: rgba(177, 164, 134, 0.929);background-color: rgba(177, 164, 134, 0.929);
+
+header {
+    background-color: rgba(177, 164, 134, 0.929);
+    background-color: rgba(177, 164, 134, 0.929);
+
 }
-.menu{
+
+.menu {
     display: flex;
-    justify-content:flex-end;
-   
+    justify-content: flex-end;
+
 }
-header{
-    display: flex ;
+
+header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-foo {
+    justify-content: start;
+}
+
+footer {
+    background-color: rgba(177, 164, 134, 0.929);
+    background-color: rgba(177, 164, 134, 0.929);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menfoo a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-grow: 3;
+
+}
 
 
-.avatar{
-    display:flex;
+
+
+
+.avatar {
+    display: flex;
     justify-content: center;
     margin: 120px;
-    flex-direction:column;
- }
-
- main{
-     display:flex;
-     justify-content: center;
-     flex-grow: 3;
-        
+    flex-direction: column;
 }
-        
